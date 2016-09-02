@@ -29,7 +29,7 @@ namespace RageControl
         private static bool _isDissabled=false;
         private static bool _bye = false;
         #endregion
-        static List <string> _badWords = new List<string> { "ass", "fck", "cancer", "fak", "fcuk","bastard", "braindead", "l2p", "fk", "cunt", "dick", "fuck", "kurwa", "shit", "suck", "mom", "kid", "noob", "retard", "report", "feeder", "bronzie", "nab", "tard", "idiot", "moron", "mother" };
+        static List <string> _badWords = new List<string> { "ass", "fck", "cancer", "fak", "fcuk","bastard", "braindead", "l2p", "fk", "cunt", "dick", "fuck", "kurwa", "suck", "mom", "kid", "noob", "dumbfuck", "mentally", "dropped on", "fucking die", "trashcan", "garbo", "garbage can", "fking", "retarded", "bitch", "pussy", "asshole", "retard", "report", "feeder", "bronzie", "nab", "tard", "idiot", "moron", "mother", "kys", "irl", "shot in the head", "kill yourself", "fucking", "faggot", "fag", "shit", "piece of", "trash", "garbage", "balls", "uninstall", "homo", "go die", "go fucking die", "I hope", "stupid", "idiot", "dumbass", "shithead"  };
         static List<string> _whiteList = new List<string> { "cass", "afk", "faker", "Faker", "/msg", "/w", "dragon", "baron", "lag" };
         static List<Obj_AI_Hero> AllPlayers;
         static List<string> BannedPlayers = new List<string>();
